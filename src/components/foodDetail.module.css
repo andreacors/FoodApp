@@ -1,0 +1,47 @@
+.foodDetailHeader {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;  
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  font: 16px 'Polysans', sans-serif;
+  color: #2342a1;
+}
+
+.recipeTitle {
+  font-size: 24px;
+  margin-bottom: 10px;
+
+}
+
+.recipeImage {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.foodDetailInfo {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.foodInstructions {
+  padding: 0px;
+  border-radius: 5px;
+  color: #addeb0;
+  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.foodInstructions ul{
+  margin-left: 0px;
+}
+
+.foodInstructions li{
+  margin: 10px 0px;
+}
